@@ -1,0 +1,198 @@
+.pricing-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  background-color: #100f15;
+  /* height: 500px; */
+}
+
+.intro {
+  display: inline-block;
+  padding: 2.4rem 0 0 0;
+  color: #ff4056d5;
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+}
+
+/* .pricing-comp-sec {
+  display: flex;
+  gap: 1.2rem;
+  margin: 0 7.2rem;
+  margin-top: 6rem;
+} */
+.pricing-comp-sec {
+  display: grid;
+  grid-template-columns: 30fr 40fr 30fr;
+  gap: 1.2rem;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1.5;
+  /* margin: 0 12rem; */
+  /* margin-top: 6rem; */
+}
+.monthly-pricing {
+  height: 30rem;
+  background-color: #282634;
+  color: #d4d4d6;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.yearly-pricing {
+  height: 35rem;
+  margin-top: -2.5rem;
+  background-color: #ff4057;
+  color: #0c0b10;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-weight: 500;
+  position: relative;
+}
+
+.year-special {
+  /* background-color: #ff4057 !important; */
+  color: #040405 !important;
+}
+
+.year-special-btn {
+  background-color: #08080a !important;
+  color: #ffecee !important;
+  font-weight: 700 !important;
+  padding: 1.2rem;
+}
+
+.quarterly-pricing {
+  height: 30rem;
+  background-color: #282634;
+  color: #d4d4d6;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.disclaimer {
+  color: #7e7d85;
+  display: inline-block;
+  margin-top: -4.8rem;
+  /* padding: 0 0 0 55rem; */
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.pricing-sec {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  /* gap: 1.2rem; */
+  align-items: center;
+}
+
+.subscription {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.get {
+  margin-top: 1.2rem;
+  margin-bottom: -1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.period {
+  margin-bottom: 0.6rem;
+}
+
+.price {
+  margin-top: -1.2rem;
+  font-size: 4.8rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: #eae9eb;
+  /* z-index: -1; */
+}
+
+.intro {
+  font-weight: 500;
+}
+
+.get-list {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.get-item {
+  margin: 0.5rem 0.5;
+  display: flex;
+  gap: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.icon {
+  /* display: inline-block; */
+  font-size: 2.4rem;
+  /* padding-left: 1.6rem; */
+}
+
+.get-exp {
+  display: inline-block;
+  padding-top: 0.22rem;
+}
+
+.get-link,
+.get-link:link,
+.get-link:visited {
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  /* border: solid #eae9eb 1px; */
+  font-size: 2.4rem;
+  color: #0c0b10;
+  background-color: #eae9eb;
+
+  margin: 0 2.4rem;
+  padding: 0.2rem 0;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.margin-top-extra {
+  margin-top: 3.2rem !important;
+}
+
+.get-link:hover,
+.get-link:active {
+  color: #100f15;
+  background-color: #eae9eb;
+  transition: all 0.3s;
+}
+
+.strong {
+  font-weight: 600 !important;
+}
+
+.before::before {
+  content: "MOST OPTED";
+  background-color: #eae9eb;
+  color: #cc3346;
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  right: 16.1rem;
+}
+
+.icon {
+  font-size: 1.6rem;
+}

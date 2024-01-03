@@ -1,0 +1,74 @@
+.feedback-section {
+  display: grid;
+  grid-template-columns: 33fr 33fr 33fr;
+  gap: 2.4rem;
+  padding: 1.2rem 4.8rem;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  background-color: #d4d4d6;
+}
+
+.review-section {
+  margin: 1rem;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  background-color: #d4d4d6;
+}
+
+.heading {
+  margin-left: 1.2rem;
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #e63a4e;
+  letter-spacing: 1.5;
+}
+
+.sec-one,
+.sec-three {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.sec-two {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  border: solid #100f15 1px;
+  border-radius: 3px;
+  background-color: #bfbec2;
+  box-shadow: 0 4px 4px #53515d;
+}
+
+.feedback {
+  margin-top: 0.6rem;
+  margin-left: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.img-name {
+  display: flex;
+  flex-direction: 1.2rem;
+  margin-left: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.img {
+  height: 3.6rem;
+  width: 3.6rem;
+  border-radius: 1.8rem;
+}
+
+.name {
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+  margin-left: 0.6rem;
+  font-weight: 500;
+}

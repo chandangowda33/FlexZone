@@ -1,0 +1,24 @@
+<app-sign-in *ngIf="openSIgnin"></app-sign-in>
+
+<nav class="main-nav">
+  <ul class="main-nav-list">
+    <li><a class="main-nav-link" href="#">Nutrition</a></li>
+    <li><a class="main-nav-link" href="#">Apparels</a></li>
+    <li>
+      <a class="main-nav-link location" href="#"
+        >Locate near center <mat-icon> location_on</mat-icon></a
+      >
+    </li>
+    <li><a class="main-nav-link" href="#pricing">Offers</a></li>
+    <li>
+      <a class="main-nav-link nav-cta" href="#" (click)="onSelect()"
+        ><mat-icon>account_circle</mat-icon></a
+      >
+    </li>
+    <li>
+      <a class="main-nav-link nav-cta" href="#"
+        ><mat-icon>add_shopping_cart</mat-icon></a
+      >
+    </li>
+  </ul>
+</nav>

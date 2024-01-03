@@ -1,0 +1,84 @@
+<div class="features-section" id="stay">
+  <h2 class="heading">In the Zone You Have</h2>
+  <div class="features-content">
+    <nav class="features-nav">
+      <ul class="features-nav-list">
+        <li class="features-nav-item">
+          <a
+            href="#stay"
+            class="features-nav-link"
+            (click)="onSelect(1)"
+            [class.active]="choosenFeature === 1"
+            >Fitness</a
+          >
+        </li>
+        <li class="features-nav-item">
+          <a
+            href="#stay"
+            class="features-nav-link"
+            (click)="onSelect(2)"
+            [class.active]="choosenFeature === 2"
+            >Nutrition</a
+          >
+        </li>
+        <li class="features-nav-item">
+          <a
+            href="#stay"
+            class="features-nav-link"
+            (click)="onSelect(3)"
+            [class.active]="choosenFeature === 3"
+            >Apparels</a
+          >
+        </li>
+        <li class="features-nav-item">
+          <a
+            href="#stay"
+            class="features-nav-link"
+            (click)="onSelect(4)"
+            [class.active]="choosenFeature === 4"
+            >Mind & Care</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="content">
+    <div class="fitness" *ngIf="choosenFeature === 1">
+      <p class="Explanation">
+        Step into a world of transformation where our expert trainers and
+        state-of-the-art facilities combine to help you achieve your fitness
+        goals and unleash your full potential.
+      </p>
+      <a href="#" class="learnMore">Learn More</a>
+    </div>
+    <div class="Nutrition" *ngIf="choosenFeature === 2">
+      <p class="Explanation">
+        We offer more than just workouts, our integrated approach includes
+        personalized nutritionist services to fuel your success and maximize
+        your results.
+      </p>
+      <a href="#" class="learnMore">Learn More</a>
+    </div>
+    <div class="Apparels" *ngIf="choosenFeature === 3">
+      <p class="Explanation">
+        As a valued member, enjoy premium fitness apparel at unbeatable
+        discounted prices, helping you train in style while reaching your
+        fitness goals.
+      </p>
+      <a href="#" class="learnMore">Learn More</a>
+    </div>
+    <div class="Apparels" *ngIf="choosenFeature === 4">
+      <p class="Explanation">
+        Immerse yourself in rejuvenating yoga activities guided by experts,
+        enhancing your mental health journey within our dedicated fitness haven.
+      </p>
+      <a href="#" class="learnMore">Learn More</a>
+    </div>
+  </div>
+  <div
+    [class.fitness-image]="choosenFeature === 1"
+    [class.nutritionist-image]="choosenFeature === 2"
+    [class.apparels-image]="choosenFeature === 3"
+    [class.mind-image]="choosenFeature === 4"
+  ></div>
+</div>
